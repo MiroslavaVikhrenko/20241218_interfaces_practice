@@ -5,6 +5,8 @@ VisualStudioVersion = 17.12.35527.113 d17.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20241218_interfaces_practice", "20241218_interfaces_practice\20241218_interfaces_practice.csproj", "{BE4C3B20-B2C1-456F-B6B8-CCDA985745A1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20241218_task2", "20241218_task2\20241218_task2.csproj", "{46067E8D-1F2D-4A47-AAD6-6AADC91D7489}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{BE4C3B20-B2C1-456F-B6B8-CCDA985745A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE4C3B20-B2C1-456F-B6B8-CCDA985745A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE4C3B20-B2C1-456F-B6B8-CCDA985745A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46067E8D-1F2D-4A47-AAD6-6AADC91D7489}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46067E8D-1F2D-4A47-AAD6-6AADC91D7489}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46067E8D-1F2D-4A47-AAD6-6AADC91D7489}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46067E8D-1F2D-4A47-AAD6-6AADC91D7489}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
