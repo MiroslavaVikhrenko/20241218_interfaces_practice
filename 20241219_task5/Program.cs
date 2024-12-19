@@ -19,7 +19,9 @@
          */
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Counter c1 = new Counter(568, 723);
+            c1.Show();
+            Console.ReadKey();
         }
     }
 }
