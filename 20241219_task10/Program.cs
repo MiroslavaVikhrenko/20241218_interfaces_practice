@@ -27,6 +27,8 @@
 
             w.Info();
 
+            w.Count();
+
             try
             {
                 Console.WriteLine("\nEnter an index of item for search\n");
