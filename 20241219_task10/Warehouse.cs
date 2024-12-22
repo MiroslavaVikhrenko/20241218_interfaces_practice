@@ -49,14 +49,16 @@ namespace _20241219_task10
 
         public void RemoveItem(Guid id)
         {
+            Item? itemFound = null;
             foreach (Item item in Items)
             {
                 if (item.Id == id)
                 {
-                    Items.Remove(item);
-                    Console.WriteLine($"\nItem was deleted from {Name}:\n {item}\n");
+                    itemFound = item;
                 }
             }
+            Items.Remove(itemFound);
+            Console.WriteLine($"\nItem was deleted from {Name}:\n {itemFound}\n");
         }
 
         public int Count()
