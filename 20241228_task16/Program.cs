@@ -34,12 +34,12 @@ namespace _20241228_task16
             Person p3 = new Person()
             {
                 Name = "Adam",
-                Phone = new Smartphone(32648)
+                Phone = new Mobile(32648)
             };
             Person p4 = new Person()
             {
                 Name = "Maria",
-                Phone = new Smartphone(12098)
+                Phone = new Mobile(12098)
             };
 
             List<Person> phonebook = new List<Person>()
