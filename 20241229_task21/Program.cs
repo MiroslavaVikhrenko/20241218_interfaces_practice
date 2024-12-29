@@ -24,15 +24,9 @@
             PrintArray(users);
 
             Console.WriteLine("\n----------The oldest user----------\n");
-            Console.WriteLine(FindOldest(users));
+            Console.WriteLine(users.FindOldest());
 
             Console.ReadKey();
-        }
-
-        public static User FindOldest(User[] users)
-        {
-            Array.Sort(users);
-            return users[0];
         }
 
         public static void PrintArray(User[] users)
@@ -44,7 +38,14 @@
         }
     }
 
-
+    public static class Extensions
+    {
+        public static User FindOldest(this User[] users)
+        {
+            Array.Sort(users);
+            return users[0];
+        }
+    }
 
     public class User : IComparable
     {
